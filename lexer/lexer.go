@@ -8,7 +8,7 @@ type Lexer struct {
 	input        string
 	position     int  // current position in input (points to current char)
 	readPosition int  // current reasing position in input (after current char)
-	ch           byte //current char under examination
+	ch           byte // current char under examination
 }
 
 func New(input string) *Lexer {
@@ -60,6 +60,7 @@ func (l *Lexer) skipWhitespace() {
 func newToken(tokenType token.TokenType, ch byte) token.Token {
 	return token.Token{Type: tokenType, Literal: string(ch)}
 }
+
 func (l *Lexer) peekChar() byte {
 	if l.readPosition >= len(l.input) {
 		return 0
