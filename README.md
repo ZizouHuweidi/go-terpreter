@@ -1,3 +1,3 @@
-# go-terpreter
+# monkelang
 
-My own attempt at an interpreter for The Monkey programming language, written in Go, inspired by the book 'Writing an interpreter in Go' by Thorsten Ball
+my attempt at returning to monke and writing the monke programming language 
