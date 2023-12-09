@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/zizouhuweidi/go-terpreter/lexer"
-	"github.com/zizouhuweidi/go-terpreter/token"
+	"github.com/zizouhuweidi/monke/lexer"
+	"github.com/zizouhuweidi/monke/token"
 )
 
 const PROMPT = ">> "
@@ -29,5 +29,4 @@ func Start(in io.Reader, out io.Writer) {
 			fmt.Printf("%+v\n", tok)
 		}
 	}
-
 }

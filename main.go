@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/user"
 
-	"github.com/zizouhuweidi/go-terpreter/repl"
+	"github.com/zizouhuweidi/monke/repl"
 )
 
 func main() {

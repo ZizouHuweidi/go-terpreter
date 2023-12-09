@@ -1,3 +1,3 @@
-module github.com/zizouhuweidi/go-terpreter
+module github.com/zizouhuweidi/monke
 
 go 1.20
